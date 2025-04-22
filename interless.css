@@ -1726,6 +1726,7 @@ footer .sqsrte-scaled-text-container.loaded .sqsrte-scaled-text h2 {
     grid-template-columns: 1fr 1fr;
     gap: var(--sqs-mobile-site-gutter) !important;
   }
+  /*List Title Mobile*/
   /*Padding*/
   .user-items-list-simple[data-layout-width="inset"] {
     padding: var(--sqs-mobile-site-gutter) !important;
@@ -1733,6 +1734,12 @@ footer .sqsrte-scaled-text-container.loaded .sqsrte-scaled-text h2 {
   }
   .user-items-list-simple[data-layout-width="inset"] .list-item-media {
     width: 100%!important;
+  }
+}
+@media screen and (max-width: 767px) and screen and (max-width: 767px) {
+  .list-item-content__title {
+    font-size: 1.2rem !important;
+    margin-bottom: 0px!important;
   }
 }
 .sqs-block-form.donation-form.sqs-background-enabled input[type='radio'],
