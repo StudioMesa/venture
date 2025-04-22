@@ -1736,6 +1736,13 @@ footer .sqsrte-scaled-text-container.loaded .sqsrte-scaled-text h2 {
   content: "" !important;
   position: absolute!important;
 }
+/*List Title Mobile*/
+@media screen and (max-width: 767px) {
+  .list-item-content__title {
+    font-size: 1.2rem !important;
+    margin-bottom: 0px!important;
+  }
+}
 /*Mobile 2-col grid*/
 @media screen and (max-width: 767px) {
   .user-items-list-item-container.user-items-list-simple {
