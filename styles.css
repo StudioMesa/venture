@@ -1453,10 +1453,6 @@ button[type="submit"]:after,
 .newsletter-form-button:before {
   display: none!important;
 }
-/*Arrow Links Display Footer*/
-#footer-sections .sqs-block-html a {
-  display: unset;
-}
 /*Scaled Text*/
 footer .sqsrte-scaled-text-container.loaded .sqsrte-scaled-text h2 {
   line-height: 0.4 !important;
