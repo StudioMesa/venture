@@ -1,4 +1,4 @@
-/*Venture CSS — Updated 04/21/2025*/
+/*Venture CSS — Updated 04/29/2025*/
 /*Site Background Color*/
 body {
   background-color: var(--body-background) !important;
@@ -1211,6 +1211,7 @@ button[type="submit"]:after,
   content: "";
   top: 0;
   background: var(--image-overlay-color);
+  opacity: var(--image-overlay-opacity);
   mix-blend-mode: color;
 }
 .user-items-list-carousel[data-layout-width="full"] .user-items-list-carousel__gutter {
