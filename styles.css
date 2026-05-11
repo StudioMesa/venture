@@ -1,4 +1,4 @@
-/*Venture CSS — Updated 04/20/2026*/
+/*Venture CSS — Updated 05/11/2026*/
 /*Site Background Color*/
 body {
   background-color: var(--body-background) !important;
@@ -2199,7 +2199,8 @@ section.vertical-alignment--bottom .content-wrapper {
   }
 }
 /*Hide Archive Block*/
-.sqs-block.archive-block.sqs-block-archive {
+.sqs-block.archive-block.sqs-block-archive,
+.sqs-block-website-component.sqs-block-archive {
   display: none!important;
 }
 /*Summary Filters*/
