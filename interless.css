@@ -1,4 +1,4 @@
-/*Venture INTERLESS CSS — Updated 05/11/2026*/
+/*Venture INTERLESS CSS — Updated 05/22/2026*/
 /*Site Background Color*/
 body {
   background-color: var(--body-background) !important;
@@ -80,14 +80,6 @@ h3 {
     font-size: 0.9rem;
     letter-spacing: 0em!important;
   }
-}
-/*Eyebrow BG — P3 Bold Italic*/
-.sqsrte-small strong em {
-  font-style: normal;
-  line-height: 0!important;
-  background: var(--tweak-text-block-stroke-color);
-  padding: 8px 10px;
-  border-radius: 4px;
 }
 /*Large Paragraph Bold*/
 .sqsrte-large strong em {
