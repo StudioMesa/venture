@@ -837,7 +837,6 @@ button[type="submit"]:after,
   }
 }
 .tweak-blog-item-width-narrow blockquote .sqsrte-small {
-  border-radius: 4px!important;
   width: fit-content;
   background: var(--accent);
   color: var(--white) !important;
