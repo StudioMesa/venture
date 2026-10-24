@@ -2975,3 +2975,9 @@ body.modal-lock {
 .product-detail .product-meta .product-description {
   margin-bottom: 30px!important;
 }
+/*Blog post (blogItem component): its margin outranks the post's bottom spacing, so restore it*/
+@media screen and (min-width: 767px) {
+  .tweak-blog-item-width-narrow .cdk-section[data-definition-name="website.components.blogItem"] .blog-item-wrapper .blog-item-inner-wrapper {
+    margin-bottom: var(--sqs-site-gutter);
+  }
+}
